@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jesus Hernandez P">
+    <meta name="keywords" content="Pasteleria,pasteles,comprar pastel, pasteles ricos">
+    <title>Pasteleria Wool Cake, los mas suaves del mercado</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="hero">
+        <nav>                      
+            <a href="index.html">Inicio</a>
+            <a href="index.html#about">Acerca de nosotros</a>
+            <a href="#">Pastelero</a>
+            <a href="cliente.html">Cliente </a>
+            <a href="index.html#footer" >Contacto</a>
+            
+        </nav>
+
+        <div class="hero__container container">
+
+            <div class="hero__texts">
+                <h1 class="hero__title">Wool Cake</h1>
+                <p class="hero__copy">Los mejores en sabor y calidad de pasteleria, como el sabor de hogar</p>
+                  
+            </div>
+
+            <img src="assets/logo1.jpeg" class="hero__img">
+
+        </div>
+
+
+    </header>
+
+    <main class="main">
+
+        
+
+        <section class="about container">
+
+            <div class="about__course">
+                <h2 class="title title--border">¿Qué podrás encontrar en nuestras sucursales?</h2>
+
+                <p class="about__paragraph">Una gran variedad de sabores y texturas que haran todo un deleite en tu paladar</p>
+
+                <p class="about__paragraph">Contamos con maquinaria de alta tecnologia para la elavoración de los pasteles , asi como contamos con los mas altos estandares de calidad ¿Listo para realizar tu pedido?.</p>
+
+                <a href="#" class="cta">Hacer pedido</a>
+            </div>
+            <figure class="about__picture">
+                <img src="assets/imu2.jpg" class="about__img">
+            </figure>
+        </section>
+
+        <section class="form">
+            <div class="form">
+            <p style="font-size: 2em; text-align: center; font-weight: 520;" >Formulario</p>
+            <br><br>            
+            <label for="Input1_nombre"> Nommbre:</label>
+            <br>
+            <input type="text" id="Input1_nombre" name="Input1_nombre">
+            <br><br>
+            <label for="Input2_telefono"> Teléfono:</label>
+            <br>
+            <input type="number" id="Input2_telefono" name="Input2_telefono"maxlength="10">
+            <br><br>
+            <label for="correo1">Correo:</label><br>
+            <input type="email" id="correo1" name="correo1"><br><br>
+            <label for="descripcion_pastel"> Descripción general del pastel:</label>
+            <br>
+            <input type="text" id="descripcion_pastel" name="descripcion_pastel">
+            <br><br>
+            <p style="font-weight: 700;">Selecciona el sabor de tu pastel</p>
+            <br>
+            <label for="sabor">Sabor del pastel</label>
+            <select id="sabor name="sabor">
+                <option value="chocolate">Chocolate</option>
+                <option value="frutos_rojos">Frutos Rojos</option>
+                <option value="limon">Limon</option>
+                <option value="rosa_silvestre">Rosa silvestre</option>
+                <option value="matcha">Matcha</option>
+                <option value="mora_azul">Mora azul</option>
+                
+            </select>
+            <br><br>
+            <p style="font-weight: 700;">Selecciona un adorno para tu pastel</p>
+            <br>
+            <label for="adorno">Elige tu adorno</label><br>
+            <input list="adornos">
+            <datalist id="adornos">
+                <option value="Globos-metálicos">
+                <option value="Globos-dorado">
+                <option value="Velita tradicional">
+                <option value="Rosas">
+                <option value="Plantas del bosque">
+            </datalist>
+            <br><br>
+
+            <h2>Combinar sabores</h2><br>
+            <input type="radio" id="Si" name="combinar_s" value="Si">
+            <label for="Si">Si</label><br>
+            <input type="radio" id="No" name="combinar_no" value="No">
+            <label for="No">No</label><br>
+            <br><br>
+
+
+            <h2>Sabores combinables</h2><br>
+            <input type="checkbox" id="topping1" name="topping1" value="chocolate">
+            <label for="topping1">Rosas silvestres</label><br>
+            <input type="checkbox" id="topping2" name="topping2" value="matcha">
+            <label for="topping2">Matcha</label><br>
+            <input type="checkbox" id="topping3" name="topping3" value="frutos_rojos">
+            <label for="topping3">Frutos rojos</label><br>
+            <input type="checkbox" id="topping4" name="topping4" value="mora_azul">
+            <label for="topping4">Mora azul</label><br><br>
+
+
+            <input type="submit" value="Submit">
+            <input type="reset">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" >
+        <div id="footer" class="footer__container container">
+
+            <div class="footer__contact">
+                <div class="footer__texts">
+                    <h2 class="title">¿Tienes algunda duda?</h2>
+                    <p class="footer__copy">Si tienes alguna duda, puedes contarnos en cualquiera de nuestras redes sociales</p>
+                    <p class="footer__copy">Dirección: Avenida 33, camino revolución 66, Ciudad de México, CP: 10200</p>
+                    <p class="footer__copy">Número telefonico: 56 83 76 98 00</p>
+                    <p class="footer__copy">Nuestro horario de atencion es de Lunes a Sabado de 9:00 am - 10:00 pm</p>
+
+                    <div class="footer__social">
+                        <a href="#" class="footer__link">
+                           <img src="assets/bxl-facebook.svg" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__link">
+                           <img src="assets/bxl-twitter.svg" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__link">
+                           <img src="assets/bxl-youtube.svg" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__link">
+                           <img src="assets/bxl-instagram.svg" class="footer__icon">
+                        </a>
+                    </div>
+                </div>
+
+                <figure class="footer__picture">
+                    <img src="assets/message-ilustration.svg" class="footer__img">
+                </figure>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
